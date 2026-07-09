@@ -3,14 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Boolean from './components/Boolean'
+
 
 function App() {
-  
 
   return (
-    <>Hello2
+    <>
+      <Boolean/>  
     </>
-  )
+  );
 }
 
 export default App
