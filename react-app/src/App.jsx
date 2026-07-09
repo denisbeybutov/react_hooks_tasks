@@ -4,13 +4,25 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Boolean from './components/Boolean'
-
+import Default from './components/Default'
+import EffectOnce from './components/EffectOnce'
+import Previous from './components/Previous'
+import StateWithReset from './components/StateWithReset'
 
 function App() {
 
   return (
     <>
-      <Boolean/>  
+      1. хук useBoolean
+      <Boolean/>  <br />
+      2. хук useDefault
+      <Default/> <br />
+      3. хук useEffecOnce
+      <EffectOnce/> <br />
+      4. хук usePrevious
+      <Previous/> <br />
+      5. хук useStateWithReset
+      <StateWithReset/>
     </>
   );
 }
