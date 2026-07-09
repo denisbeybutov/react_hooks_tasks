@@ -8,12 +8,15 @@ import Default from './components/Default'
 import EffectOnce from './components/EffectOnce'
 import Previous from './components/Previous'
 import StateWithReset from './components/StateWithReset'
+import Toggle from './components/Toggle'
+import Breakpoint from './components/Breakpoint'
+import ClickOutside from './components/ClickOutside'
 
 function App() {
 
   return (
     <>
-      1. хук useBoolean
+      {/* 1. хук useBoolean
       <Boolean/>  <br />
       2. хук useDefault
       <Default/> <br />
@@ -22,7 +25,13 @@ function App() {
       4. хук usePrevious
       <Previous/> <br />
       5. хук useStateWithReset
-      <StateWithReset/>
+      <StateWithReset/> <br />
+      6. хук useToggle
+      <Toggle/> */}
+      7. хук useBreakpoint
+      <Breakpoint/>
+      8. хук useClickOutside
+      <ClickOutside/>
     </>
   );
 }
