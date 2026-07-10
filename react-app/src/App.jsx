@@ -17,6 +17,7 @@ import KeyPress from './components/KeyPress'
 import Map from './components/Map'
 import Object from './components/Object'
 import Step from './components/Step'
+import Throttle from './components/Throttle'
 
 function App() {
 
@@ -49,7 +50,9 @@ function App() {
       13. useObject
       <Object/>
       14. useStep
-      <Step/>
+      <Step/> <br />
+      15. useThrottle
+      <Throttle/>
 
     </>
   );

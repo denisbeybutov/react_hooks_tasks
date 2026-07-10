@@ -1,8 +1,7 @@
 import useStep from "../hooks/useStep";
 
 export default function Step(){
-    const { step, next, previous, reset, setStep, hasNext, hasPrevious } =
-    useStep(3);
+    const { step, next, previous, reset, setStep, hasNext, hasPrevious } = useStep(3);
 
   return (
     <div>
