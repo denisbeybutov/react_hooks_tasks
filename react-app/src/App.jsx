@@ -15,6 +15,8 @@ import Countdown from './components/CountDown'
 import EventListener from './components/EventListener'
 import KeyPress from './components/KeyPress'
 import Map from './components/Map'
+import Object from './components/Object'
+import Step from './components/Step'
 
 function App() {
 
@@ -44,6 +46,10 @@ function App() {
       <KeyPress/> <br /> <br />
       12. хук useMap
       <Map/>
+      13. useObject
+      <Object/>
+      14. useStep
+      <Step/>
 
     </>
   );
